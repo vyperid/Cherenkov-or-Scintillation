@@ -88,8 +88,8 @@ for name, model in models:
         best_accuracy = accuracy
         best_model_name = name
 
-f.write(f"\nModel that has the highest F1 Score ve Accuracy: {best_model_name} (F1 Score: {best_f1_score}, Accuracy: {best_accuracy})")
-#print(f"\nModel that has the highest F1 Score ve Accuracy: {best_model_name} (F1 Score: {best_f1_score}, Accuracy: {best_accuracy})")   
+f.write(f"\nModel that has the highest F1 Score and Accuracy: {best_model_name} (F1 Score: {best_f1_score}, Accuracy: {best_accuracy})")
+#print(f"\nModel that has the highest F1 Score and Accuracy: {best_model_name} (F1 Score: {best_f1_score}, Accuracy: {best_accuracy})")   
 
 f.close()
 
